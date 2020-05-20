@@ -9,9 +9,9 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout repository
-              uses: actions/checkout@master
+              uses: actions/checkout@v2
             - name: Set up Node.js
-              uses: actions/setup-node@master
+              uses: actions/setup-node@v1
               with:
                   node-version: '12.x'
                   registry-url: 'https://registry.npmjs.org'
@@ -25,4 +25,4 @@ jobs:
               #      tag_message: 'v%s'
               #      commit_pattern: "^Release (\\S+)"
               env: # More info about the environment variables in the README
-                  NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }} # You need to set this in your repo settings
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }} # You need to set this in your repo settings
