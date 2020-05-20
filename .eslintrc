@@ -1,0 +1,23 @@
+{
+    "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+    "parser": "babel-eslint",
+    "globals": {
+        "window": true,
+        "global": true,
+        "Vue": true
+    },
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "sourceType": "module"
+    },
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": "error",
+        "no-console": "off",
+        "indent": ["error", 4, { "SwitchCase": 1 }]
+    }
+}

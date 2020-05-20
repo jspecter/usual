@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "@src*": [
+                "src*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        ".vscode",
+        "library",
+        "local",
+        "settings",
+        "temp",
+        "build",
+        "dist"
+    ],
+    "include": [
+        "src/**/*"
+    ]
+}
