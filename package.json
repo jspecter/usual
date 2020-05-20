@@ -1,12 +1,12 @@
 {
-  "name": "dryjs",
+  "name": "cnmjs",
   "version": "1.0.0",
   "description": "usual config of web projects",
   "main": "index.js",
   "repository": "git@github.com:jspecter/usual.git",
   "author": "Leslie ZHu",
   "license": "MIT",
-  "bin": "./bin/dry.js",
+  "bin": "./bin/cnm.js",
   "files": [
       "bin",
       "dist",
