@@ -1,6 +1,6 @@
 {
   "name": "cnmjs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "usual config of web projects",
   "main": "index.js",
   "repository": "git@github.com:jspecter/usual.git",
@@ -19,6 +19,7 @@
   ],
   "scripts": {
     "dev": "node ./bin/cnm.js --env=development",
+    "test": "node ./bin/cnm.js --env=production",
     "build": "rollup -c",
     "clear": "rm ./dist -rf "
   },
