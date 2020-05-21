@@ -15,10 +15,11 @@
     "LICENSE"
   ],
   "scripts": {
-    "dev": "usual",
+    "dev": "node ./bin/cnm.js --env=development",
     "build": "rollup -c",
     "clear": "rm ./dist -rf "
   },
+  "keywords": ["config","editor","eslint","prettier","git","ts"],
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
