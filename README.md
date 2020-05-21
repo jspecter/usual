@@ -1,18 +1,21 @@
-## **vega docs**
-***
+## **cnmjs docs**
+
+---
+
 ### install
+
 ```
-yarn global add vega
+yarn global add cnmjs
 ```
+
 or
+
 ```
-npm install vega -g
+npm install cnmjs -g
 ```
+
 ### usage
+
 ```
-dryjs
+cnmjs
 ```
-
-
-
-
