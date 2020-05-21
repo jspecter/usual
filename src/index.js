@@ -13,7 +13,7 @@ const next = async function () {
     );
     if (result) {
         const cwd = process.cwd();
-        const source = path.resolve(cwd, 'source');
+        const source = path.resolve(__dirname, 'source');
 
         const files = readDir(source);
 
