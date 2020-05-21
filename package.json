@@ -1,15 +1,18 @@
 {
   "name": "cnmjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "usual config of web projects",
   "main": "index.js",
   "repository": "git@github.com:jspecter/usual.git",
   "author": "Leslie ZHu",
   "license": "MIT",
-  "bin": "./bin/cnm.js",
+  "bin": {
+      "cnmjs":"./bin/cnm.js"
+  },
   "files": [
     "bin",
     "dist",
+    "source",
     "package.json",
     "README.md",
     "LICENSE"
@@ -28,15 +31,15 @@
     "ts"
   ],
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/register": "^7.9.0",
+    "babel-plugin-transform-async-functions": "^6.22.0",
     "@types/node": "^14.0.4",
     "rollup": "^2.10.5",
     "rollup-plugin-terser": "^5.3.0"
   },
   "dependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/preset-env": "^7.9.6",
-    "@babel/register": "^7.9.0",
-    "babel-plugin-transform-async-functions": "^6.22.0",
     "chalk": "^4.0.0",
     "inquirer": "^7.1.0"
   }

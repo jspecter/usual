@@ -14,10 +14,5 @@ if (process.env.NODE_ENV === 'development') {
 
     module.exports = require('../src/index.js');
 } else {
-    require('@babel/register')({
-        only: [/dist/],
-        cache: false
-    });
-
     module.exports = require('../dist/bundle.min');
 }
