@@ -9,3 +9,7 @@ export function readDir(path) {
 export function copy(source, dest) {
     fs.copyFileSync(source, dest, fs.constants.COPYFILE_EXCL);
 }
+
+export function isPureObj(obj) {
+    return Object.prototype.toString.call(obj) === '[object Object]';
+}

@@ -1,3 +1,5 @@
+import ObjMap from './map';
+
 export const init = {
     type: 'confirm',
     name: 'init',
@@ -27,7 +29,15 @@ export const config = [
     },
     {
         type: 'confirm',
-        name: 'ts',
+        name: 'typescript',
         message: 'should u add typescript config?'
     }
 ];
+
+export const filePathMap = new ObjMap({
+    editor: ['.editorconfig'],
+    eslint: ['.eslintignore', '.eslintrc'],
+    git: ['.gitignore'],
+    prettier: ['.prettierignore', '.prettierrc'],
+    typescript: ['tsconfig.json']
+});

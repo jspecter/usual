@@ -5,11 +5,11 @@ export default {
     output: [
         {
             dir: 'dist/bundle',
-            format: 'es'
+            format: 'cjs'
         },
         {
             dir: 'dist/bundle.min',
-            format: 'es',
+            format: 'cjs',
             plugins: [terser()]
         }
     ]
