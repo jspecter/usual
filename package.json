@@ -1,6 +1,6 @@
 {
     "name": "cnmjs",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "usual config of web projects",
     "main": "index.js",
     "repository": "git@github.com:jspecter/usual.git",
@@ -10,6 +10,7 @@
     "files": [
         "bin",
         "dist",
+        "source",
         "package.json",
         "README.md",
         "LICENSE"
